@@ -2,7 +2,7 @@
  window.initCanvas = function(option){
 	var img = new Image();
 	var qiniuServer = 'http://7xov9r.com1.z0.glb.clouddn.com/',
-	qiniuPicCompress = '?imageView/2/w/970/h/650';
+	qiniuPicCompress = '?imageView/2/w/1600/h/800';
 	imgId = option.imgId;
 	imgName = option.imgName;
 	img.src = qiniuServer +imgName+'.jpg'+qiniuPicCompress;
