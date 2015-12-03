@@ -6,17 +6,38 @@ var db = low('db.json')
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: '商业模式评论' });
+  res.render('index', { title: 'Kindle商业模式评论' });
 });
 
 router.get('/qingting', function(req, res, next) {
-  res.render('qingting', { title: '商业模式评论' });
+  res.render('qingting', { title: '蜻蜓FM商业模式评论' });
 });
 
 router.get('/lizhi', function(req, res, next) {
   res.render('lizhi', { title: '荔枝FM商业模式评论' });
 });
 
+
+
+router.get('/ximalayafm', function(req, res, next) {
+  res.render('ximalayafm', { title: '喜马拉雅FM商业模式评论' });
+});
+
+router.get('/magic', function(req, res, next) {
+  res.render('magic', { title: 'Magic商业模式评论' });
+});
+
+router.get('/dinguber', function(req, res, next) {
+  res.render('dinguber', { title: 'Ding一下Uber商业模式评论' });
+});
+
+router.get('/airbnbchina', function(req, res, next) {
+  res.render('airbnbchina', { title: 'AirBnB在中国商业模式评论' });
+});
+
+router.get('/guokemooc', function(req, res, next) {
+  res.render('guokemooc', { title: '果壳MOOC商业模式评论' });
+});
 
 var comments_id = '';
 
