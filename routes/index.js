@@ -39,6 +39,10 @@ router.get('/guokemooc', function(req, res, next) {
   res.render('guokemooc', { title: '果壳MOOC商业模式评论' });
 });
 
+router.get('/guokezaihang', function(req, res, next) {
+  res.render('guokezaihang', { title: '果壳在行商业模式评论' });
+});
+
 var comments_id = '';
 
 router.param('id', function (req, res, next, id) {
