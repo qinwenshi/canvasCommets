@@ -568,7 +568,7 @@ function saveAllComments() {
             //alert('保存数据失败，请重试！');
         });
     */
-    $.post('/comments/2',
+    $.post('/comments/'+picId,
         {'comments': comments}
     ).done(function (data) {
 

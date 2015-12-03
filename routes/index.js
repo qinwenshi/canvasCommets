@@ -9,6 +9,10 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: '商业模式评论' });
 });
 
+router.get('/qingting', function(req, res, next) {
+  res.render('qingting', { title: '商业模式评论' });
+});
+
 var comments_id = '';
 
 router.param('id', function (req, res, next, id) {

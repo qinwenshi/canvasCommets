@@ -1,11 +1,12 @@
-$(document).ready(function(){
+//$(document).ready(function(){
+    window.initCanvas = function(option){
 	var img = new Image();
 	
-	imgId = 2;
-	imgName = 'kindle_hardware';
+	imgId = option.imgId;
+	imgName = option.imgName;// 'qingting';
 	img.src = '/imgdata/'+imgName+'.jpg';
 
-	img.id = 'commentsBackground';
+	img.id = imgId;//'commentsBackground';
     $('<div id = "preViewPic" class="preViewPic"/>').appendTo($('.container'));
     
     var savedComments= [];
@@ -27,8 +28,9 @@ $(document).ready(function(){
 			id     :img.id, 
     		picUrl: img.src,
     		width  :'970',
-    		height :'600',
+    		height :'650',
     		comments: savedComments
 		}));  
 	}
-});
+}
+//});
