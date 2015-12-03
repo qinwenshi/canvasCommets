@@ -1,0 +1,8 @@
+{
+  "commentsdb": [
+    {
+      "id": "2",
+      "comments": "[{\"id\":\"e04d6667-c514-4e45-89c0-44e64fb655d0\",\"posX\":539,\"posY\":388,\"comments\":[{\"id\":\"8e4a8c22-2feb-44d2-949c-5ddae390ef22\",\"comment\":\"cccc\"}],\"inputCache\":\"添加评论\"},{\"id\":\"9e7c458b-180d-4a65-a2b4-65339d09cff5\",\"posX\":609,\"posY\":141,\"comments\":[{\"id\":\"ff81361e-13ef-4915-b566-f4f383e93788\",\"comment\":\"sfdas\"}],\"inputCache\":\"添加评论\"},{\"id\":\"085aeaf7-0231-443f-9beb-e6a0db4b8a74\",\"posX\":253,\"posY\":149,\"inputCache\":\"xxx\",\"comments\":[{\"id\":\"879900d0-a836-48b7-aaf9-6efdfef73c06\",\"comment\":\"xxx\"}]}]"
+    }
+  ]
+}
