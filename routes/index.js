@@ -13,6 +13,11 @@ router.get('/qingting', function(req, res, next) {
   res.render('qingting', { title: '商业模式评论' });
 });
 
+router.get('/lizhi', function(req, res, next) {
+  res.render('lizhi', { title: '荔枝FM商业模式评论' });
+});
+
+
 var comments_id = '';
 
 router.param('id', function (req, res, next, id) {
