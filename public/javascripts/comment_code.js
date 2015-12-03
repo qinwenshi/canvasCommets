@@ -1,12 +1,12 @@
 //$(document).ready(function(){
-    window.initCanvas = function(option){
+ window.initCanvas = function(option){
 	var img = new Image();
-	
+	var qiniuServer = 'http://7xov9r.com1.z0.glb.clouddn.com/'	
 	imgId = option.imgId;
 	imgName = option.imgName;// 'qingting';
-	img.src = '/imgdata/'+imgName+'.jpg';
+	img.src = qiniuServer +imgName+'.jpg';
 
-	img.id = imgId;//'commentsBackground';
+	img.id = imgId;
     $('<div id = "preViewPic" class="preViewPic"/>').appendTo($('.container'));
     
     var savedComments= [];
