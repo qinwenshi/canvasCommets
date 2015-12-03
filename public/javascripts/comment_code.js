@@ -1,10 +1,11 @@
 //$(document).ready(function(){
  window.initCanvas = function(option){
 	var img = new Image();
-	var qiniuServer = 'http://7xov9r.com1.z0.glb.clouddn.com/'	
+	var qiniuServer = 'http://7xov9r.com1.z0.glb.clouddn.com/',
+	qiniuPicCompress = '?imageView/2/w/970/h/650';
 	imgId = option.imgId;
-	imgName = option.imgName;// 'qingting';
-	img.src = qiniuServer +imgName+'.jpg';
+	imgName = option.imgName;
+	img.src = qiniuServer +imgName+'.jpg'+qiniuPicCompress;
 
 	img.id = imgId;
     $('<div id = "preViewPic" class="preViewPic"/>').appendTo($('.container'));
