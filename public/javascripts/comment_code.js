@@ -33,6 +33,7 @@
     		height : imgHeight,
     		comments: savedComments
 		}));  
+        $('.commentLabelView').mouseover();
 	}
 }
 //});
