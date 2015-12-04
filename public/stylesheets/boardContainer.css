@@ -16,8 +16,8 @@ body {
 .commentLabelView {
     position: absolute;
     background: url(../img/ic_label_add_normal.png) no-repeat;
-    width: 21px;
-    height: 16px;
+    width: 25px;
+    height: 25px;
     background-size: cover;
     border: 0;
 
@@ -25,8 +25,8 @@ body {
 
 .commentLabelView:hover {
     background: url(../img/ic_label_add_pressed.png) no-repeat;
-    width: 21px;
-    height: 16px;
+    width: 25px;
+    height: 25px;
     background-size: cover;
 }
 
