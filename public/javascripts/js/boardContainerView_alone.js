@@ -397,8 +397,8 @@ var CommentItemView = Backbone.View.extend({
 
     render: function () {
         this.$el.empty();
-        this.$el.html('<span class="commentItemSpan">' + this.model.get('comment') + '</span><span style="float: right;"><img id="' + this.model.get('id') + '" class="img-comment-delete" src="img/ic_delete_normal.png"/></span><hr>');
-
+        //this.$el.html('<span class="commentItemSpan">' + this.model.get('comment') + '</span><span style="float: right;"><img id="' + this.model.get('id') + '" class="img-comment-delete" src="img/ic_delete_normal.png"/></span><hr>');
+        this.$el.html('<span class="commentItemSpan">' + this.model.get('comment') + '</span><hr>');
         return this;
     }
 });
