@@ -43,6 +43,10 @@ router.get('/guokezaihang', function(req, res, next) {
   res.render('guokezaihang', { title: '果壳在行商业模式评论' });
 });
 
+router.get('/douyutv', function(req, res, next) {
+  res.render('douyutv', { title: '斗鱼TV商业模式评论' });
+});
+
 var comments_id = '';
 
 router.param('id', function (req, res, next, id) {
