@@ -47,6 +47,10 @@ router.get('/douyutv', function(req, res, next) {
   res.render('douyutv', { title: '斗鱼TV商业模式评论' });
 });
 
+router.get('/innolauncher', function(req, res, next) {
+  res.render('innolauncher', { title: '意启部落商业模式评论' });
+});
+
 var comments_id = '';
 
 router.param('id', function (req, res, next, id) {
