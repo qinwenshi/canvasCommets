@@ -55,6 +55,11 @@ router.get('/ubertransformation', function(req, res, next) {
   res.render('ubertransformation', { title: 'Uber与传统转型商业模式评论' });
 });
 
+router.get('/netflixtransformation', function(req, res, next) {
+  res.render('netflixtransformation', { title: 'Netflix转型商业模式评论' });
+});
+
+
 var comments_id = '';
 
 router.param('id', function (req, res, next, id) {
